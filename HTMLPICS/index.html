@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/cf237c7017.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <div class="hero">
+        <nav>
+            <img src="consultant-removebg-preview.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>I'm Gerald <span>Reyes</span></h1>
+            <p> This is my personal portfolio
+                <br> Details & Work experience.
+            </p>
+            <a href="#">DOWNLOAD INFO</a>
+        </div>
+        <div class="images">
+            <img src="output-onlinegiftools.gif" class="output-onlinegiftools">
+        </div>
+    </div>
+    <!--------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="mypic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me!</h1>
+                    <p>Gerald Reyes is a highly skilled and talented front-end developer. He has a passion for creating
+                        visually appealing and user-friendly websites that leave a lasting impression on visitors.
+                        He is an excellent problem solver and always finds innovative ways to tackle complex technical
+                        challenges. Gerald's attention to detail is second to none, and he consistently delivers
+                        projects
+                        on time and within budget. He has strong communication skills, making him an effective team
+                        player, and he is always eager to learn and improve his skills. He is a dedicated and
+                        hardworking individual who takes pride in
+                        his work and is committed to delivering the best possible results for his clients. With his
+                        positive attitude and can-do spirit, Gerald is a valuable asset to any team.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Design Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web designing</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer, ABC Company, Makati City (2021-present)</span><br>Develop and maintain company website using HTML, CSS, and JavaScript
+                                Collaborate with designers and stakeholders to implement responsive web design and improve user experience
+                                Write clean, efficient, and well-documented code
+                                Debug and troubleshoot website issues and implement fixes
+                                Participate in code reviews and suggest improvements</li>
+                            <li><span>Junior Full-Stack Developer, XYZ Inc., Manila (2019-2021)</span><br>Worked on several projects using React, Node.js, and MongoDB
+                                Built and maintained company's e-commerce website and mobile applications
+                                Improved website performance by optimizing images and reducing page load times
+                                Implemented payment gateways and security measures
+                                Mentored junior developers and provided technical guidance</li>
+                            <li><span>Freelance Web Developer, (2017-2019)</span><br>Completed several projects for small businesses and individuals
+                                Built websites using HTML, CSS, and JavaScript
+                                Implemented custom design elements using CSS and JavaScript
+                                Provided ongoing website maintenance and updates
+                                Worked with clients to understand their needs and goals</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Science in Computer Science, De La Salle University, Manila</span><br>Coursework included:
+                                Web Development Fundamentals (HTML, CSS, JavaScript)
+                                Database Systems and SQL
+                                Object-Oriented Programming (Java)
+                                Mobile Application Development (Android).</li>
+                                <li><span>Master of Science in Information Technology, Ateneo de Manila University, Quezon City</span><br>Coursework included:
+                                    Advanced Web Development (React, Node.js, MongoDB)
+                                    Cloud Computing and DevOps
+                                    Machine Learning and Artificial Intelligence
+                                    Cybersecurity and Network Security</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>My services include layout design, graphic design, 
+                    responsive design, and custom theme development.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX design</h2>
+                <p>I offer professional web design services to help businesses establish a strong online presence. My services 
+                    include custom website design, responsive layout, user-friendly interface, and search engine optimization.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App design</h2>
+                <p>I provide comprehensive app design services to bring your ideas to life. I specialize in crafting intuitive, user-friendly interfaces and user experiences that enhance the functionality of your app.
+                </p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id ="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My works</h1>
+        <div class="work-list">
+            <div class="work"> 
+            <img src="pic11.png">
+            <div class="layer">
+                <h3>Fitness Application</h3>
+    
+
+            </div>
+        </div>
+        <div class="work">
+            <img src="pic22.png">
+            <div class="layer">
+                <h3>Shop Application</h3>
+                
+            </div>
+        </div>
+        <div class="work">
+            <img src="pic3.jpg">
+            <div class="layer">
+                <h3>Map Application</h3>
+               
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+</body>
+
+</html>
